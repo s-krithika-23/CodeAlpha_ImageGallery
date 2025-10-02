@@ -1,0 +1,262 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+}
+.heading{
+    background-color: black;
+    color:aqua;
+    padding-bottom: 10px;
+   
+}
+li a{
+    color: aqua;
+    text-decoration-line: none;
+
+}
+h1{
+    padding-left: 5px;
+}
+ul,li,h1{
+    display: inline;
+}
+li{
+    margin-left: 15px;
+    border-style: double;
+    padding: 5px;
+    color: aqua;
+}
+ li a:hover{
+    cursor: pointer;
+    background-color: aqua;
+    color: black;
+    border-style: none;
+}
+ul{
+    margin-left: 65%;
+}
+
+.text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(22, 221, 232);
+    font-size: 40px;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+.header{
+    background-color: aqua;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+.selection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    width: 400px;
+    margin-left: 550px;
+    margin-right: 300px;
+   justify-content: center;
+}
+.box{
+    border-style: dotted;
+    border-color: aqua;
+    background-color: aqua;
+    color: black;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.box a{
+    text-decoration-line: none;
+    color: black;
+}
+.about
+{
+   background-color: aqua;
+   color: black;
+   display: block;
+   text-align: center;
+   margin-top: 60px;
+}
+.about3
+{
+   background-color: aqua;
+   color: black;
+   display: block;
+   text-align: center;
+}
+.about2{
+    color: aqua;
+}
+
+.contact:hover{
+    cursor: pointer;
+    color: aquamarine;
+}
+.possition1{
+    position: absolute;
+    width: 200px;
+    height: 360px;
+    top: 66%;
+    left: 10%;
+    background-color: rgb(119, 103, 227) ;
+}
+.possition2{
+    position: absolute;
+    width: 200px;
+    height: 360px;
+    top: 800px;
+    left: 500px;
+    
+    background-color: rgb(119, 103, 227) ;
+}
+.image1
+{
+    position: relative;
+    display:inline;
+    top: 90px;
+    left:10%;
+    margin-left: 20px;
+}
+.image2
+{
+    position: relative;
+    display:inline;
+    top: 400px;
+    left:327px;
+    margin-left: 20px;
+}
+.possition3{
+    position: absolute;
+    width: 200px;
+    height: 360px;
+    top: 500px;
+    left: 850px;
+    
+    background-color: rgb(119, 103, 227) ;
+}
+.image3
+{
+    position: relative;
+    display:inline;
+    top: 100px;
+    left:497px;
+    margin-left: 20px;
+}
+.possition4{
+    position: absolute;
+    width: 200px;
+    height: 360px;
+    top: 800px;
+    left: 1200px;
+    background-color: rgb(119, 103, 227) ;
+}
+.image4
+{
+    position: relative;
+    display:inline;
+    top: 400px;
+    left:667px;
+    margin-left: 20px;
+}
+.sunabout1 h1{
+    background-color: aqua;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 7px;
+    margin-top: 500px;
+}
+.sunabout3{
+    background-color: aqua;
+    display: block;
+    text-align: center;
+    padding: 7px;
+    color: rgb(3, 20, 20);
+}
+.sunabout2 {
+    color: aqua;
+
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(127, 245, 237);
+ }
+ .about3{
+    margin-top: 20px;
+    color: black;
+ }
+ .about4{
+    color: aqua;
+ }
+ .beach{
+    display:flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color: rgb(8, 91, 63);
+    width: 1100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+ }
+ .body{
+    background-image: url(https://wallpaperaccess.com/full/2929317.jpg);
+}  
+.registerform{
+    background-color: rgb(96, 243, 243,.4);
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 40%;
+    padding: 15px;
+    text-align: center;
+    text-shadow: 10px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.forminput{
+    text-align: left;
+    padding: 20px 10px ;
+   
+}
+.inputtag{
+    width:100%;
+    height: 20px;  
+}
+.button{
+    margin-top:10px ;
+}
+.aeroplane{
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  gap: 30px;
+  padding: 30px;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+} 
+.aero{
+  border-style: dotted;
+  border-color: aqua;
+  border-radius: 10px;
+}
+.aero:hover{
+    transform: scale(1.1);
+    width: 550px;
+    transition-timing-function: ease-in-out;
+    
+}
